@@ -1,0 +1,112 @@
+/*JSON*/
+{
+    "tab5d950def04cae": {
+        "form": {
+            "classname": "basetab",
+            "property": {
+                "id": "tab5d950def04cae",
+                "bezeichnung": "main",
+                "customerid": "",
+                "table": "oxarticles",
+                "colindex": "oxid",
+                "subtabledefinition": "",
+                "passwordvalidation": "0",
+                "passwordvalidation_desc": "",
+                "passwordvalidation_class": "",
+                "debugmode": "0"
+            }
+        },
+        "elements": {
+            "element5d950e303ba24": {
+                "classname": "button_save",
+                "property": {
+                    "bezeichnung": "Save",
+                    "loadformular": "#STARTFORM#",
+                    "disabled": "0",
+                    "hasparentcontrol": "",
+                    "customerid": "",
+                    "languageid": "",
+                    "invisible": "0",
+                    "style": ""
+                },
+                "id": "element5d950e303ba24",
+                "left": "10",
+                "top": "280",
+                "height": "30",
+                "width": "200",
+                "zindex": "1",
+                "containerid": "tab5d950def04cae"
+            },
+            "element5f25f3c6d7d8e": {
+                "classname": "textarea",
+                "property": {
+                    "standardtext": "",
+                    "pflichtfeld": "0",
+                    "fehlermeldung": "Is mandatory",
+                    "maxlength": "",
+                    "readonly": "0",
+                    "fixwidth": "1",
+                    "datenbankspalte": "rs_video#EDITLANG#",
+                    "datenbankspaltebeschreibung": "",
+                    "taborder": "",
+                    "hasparentcontrol": "",
+                    "customerid": "",
+                    "languageid": "",
+                    "invisible": "0",
+                    "style": ""
+                },
+                "id": "element5f25f3c6d7d8e",
+                "left": "10",
+                "top": "70",
+                "height": "200",
+                "width": "540",
+                "zindex": "1",
+                "containerid": "tab5d950def04cae"
+            },
+            "element5f25f3f42b57e": {
+                "classname": "checkbox",
+                "property": {
+                    "angehakt": "0",
+                    "bezeichnung": "Display video on detail page",
+                    "readonly": "0",
+                    "setreadonly": "",
+                    "setreadonly2": "",
+                    "datenbankspalte": "rs_has_video#EDITLANG#",
+                    "datenbankspaltebeschreibung": "",
+                    "taborder": "",
+                    "hasparentcontrol": "",
+                    "customerid": "",
+                    "languageid": "",
+                    "invisible": "0",
+                    "style": ""
+                },
+                "id": "element5f25f3f42b57e",
+                "left": "10",
+                "top": "10",
+                "height": "20",
+                "width": "200",
+                "zindex": "1",
+                "containerid": "tab5d950def04cae"
+            },
+            "element5f25f41c9f326": {
+                "classname": "label",
+                "property": {
+                    "bezeichnung": "Youtube iFrame code",
+                    "textalign": "left",
+                    "hasparentcontrol": "",
+                    "customerid": "",
+                    "languageid": "",
+                    "invisible": "0",
+                    "style": ""
+                },
+                "id": "element5f25f41c9f326",
+                "left": "10",
+                "top": "40",
+                "height": "20",
+                "width": "200",
+                "zindex": "1",
+                "containerid": "tab5d950def04cae"
+            }
+        }
+    }
+}

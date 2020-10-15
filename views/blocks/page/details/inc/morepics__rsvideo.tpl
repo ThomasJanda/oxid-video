@@ -1,0 +1,7 @@
+[{assign var="oConfig" value=$oViewConf->getConfig()}]
+[{assign var="oDetailsProduct" value=$oView->getProduct()}]
+[{if $oDetailsProduct->rsvideo_hasVideo()}]
+    [{include file="rs/video/views/tpl/page/details/inc/morepics_rsvideo.tpl"}]
+[{else}]
+    [{$smarty.block.parent}]
+[{/if}]
